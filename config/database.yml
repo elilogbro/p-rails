@@ -10,4 +10,5 @@ test:
   <<: *default
   database: backend_portfolio_test
 production:
+  <<: *default
   url: <%= ENV['DATABASE_URL'] %>
