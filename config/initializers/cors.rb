@@ -9,7 +9,7 @@ Rails.application.config.action_controller.forgery_protection_origin_check = fal
 
 Rails.application.config.middleware.insert_before 0, Rack::Cors do
   allow do
-    origins "https://joyful-quokka-d77420.netlify.app"
+    origins "https://eliottbrown.netlify.app"
 
     resource "*",
       headers: :any,
